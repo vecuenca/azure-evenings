@@ -20,6 +20,7 @@
 
    - Navigate to your Azure Storage account.
    - Under `Blob service`, select `Lifecycle management` and add the following policy, **replacing the `prefixMatch` attribute with a prefix matching your container and/or blob:**
+7. For bonus marks: use Azcopy to transfer blobs between two containers. (You'll need to generate a SAS to do this).
    
 ```
 {
