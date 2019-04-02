@@ -7,7 +7,7 @@
    - A pane appears with the lease ID for your blob. 
    - **You must supply this lease ID in order to write to the blob, or to renew, change, or break the lease. Think of it as an exclusive lock.**
 4. Break the lease on the blob, by accessing the same context menu and clicking `Break lease`. Note that the `LEASE STATE` column updates.
-5. Implement a data retention policy:
+5. Implement a data retention policy for a container:
 
    - Select an existing container in your Storage account. **(Note: your storage account must be in a GPv2 or a blob storage account!)**
    - Select `Access policy` in the container settings. Then, select `Add policy` under `Immutable blob storage`. 
