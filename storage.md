@@ -57,3 +57,4 @@ This policy does the following:
 
 # Azure Tables Lab - working with the .NET driver
 1. Follow this [tutorial](https://github.com/Azure-Samples/storage-table-dotnet-getting-started/blob/master/TableStorage/BasicSamples.cs).
+2. For bonus marks: write code that inserts multiple entities, then write a query that retrieves all entities from the table. 
