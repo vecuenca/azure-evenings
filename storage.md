@@ -20,7 +20,6 @@
 
    - Navigate to your Azure Storage account.
    - Under `Blob service`, select `Lifecycle management` and add the following policy, **replacing the `prefixMatch` attribute with a prefix matching your container and/or blob:**
-7. For bonus marks: use Azcopy to transfer blobs between two containers. (You'll need to generate a SAS to do this).
    
 ```
 {
@@ -54,6 +53,7 @@ This policy does the following:
 - Tier blob to archive tier 90 days after last modification
 - Delete blob 2,555 days (seven years) after last modification
 - Delete blob snapshots 90 days after snapshot creation
+7. For bonus marks: use Azcopy to transfer blobs between two containers. (You'll need to generate a SAS to do this).
    
 
 # Azure Tables Lab - working with the .NET driver
