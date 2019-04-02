@@ -56,3 +56,4 @@ This policy does the following:
    
 
 # Azure Tables Lab - working with the .NET driver
+1. Follow this [tutorial](https://github.com/Azure-Samples/storage-table-dotnet-getting-started/blob/master/TableStorage/BasicSamples.cs).
